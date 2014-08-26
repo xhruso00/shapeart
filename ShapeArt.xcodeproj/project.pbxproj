@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2C34E3D19ACBBA800A2E5CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C34E3C19ACBBA800A2E5CE /* Cocoa.framework */; };
+		D2C34E4719ACBBA800A2E5CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E4519ACBBA800A2E5CE /* InfoPlist.strings */; };
+		D2C34E4919ACBBA800A2E5CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E4819ACBBA800A2E5CE /* main.m */; };
+		D2C34E4D19ACBBA800A2E5CE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E4B19ACBBA800A2E5CE /* Credits.rtf */; };
+		D2C34E5019ACBBA800A2E5CE /* SADocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E4F19ACBBA800A2E5CE /* SADocument.m */; };
+		D2C34E5319ACBBA800A2E5CE /* SADocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E5119ACBBA800A2E5CE /* SADocument.xib */; };
+		D2C34E5619ACBBA800A2E5CE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E5419ACBBA800A2E5CE /* MainMenu.xib */; };
+		D2C34E5819ACBBA800A2E5CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E5719ACBBA800A2E5CE /* Images.xcassets */; };
+		D2C34E5F19ACBBA800A2E5CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C34E5E19ACBBA800A2E5CE /* XCTest.framework */; };
+		D2C34E6019ACBBA800A2E5CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C34E3C19ACBBA800A2E5CE /* Cocoa.framework */; };
+		D2C34E6819ACBBA800A2E5CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E6619ACBBA800A2E5CE /* InfoPlist.strings */; };
+		D2C34E6A19ACBBA800A2E5CE /* ShapeArtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E6919ACBBA800A2E5CE /* ShapeArtTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2C34E6119ACBBA800A2E5CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C34E3119ACBBA800A2E5CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2C34E3819ACBBA800A2E5CE;
+			remoteInfo = ShapeArt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2C34E3919ACBBA800A2E5CE /* ShapeArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C34E3C19ACBBA800A2E5CE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D2C34E3F19ACBBA800A2E5CE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D2C34E4019ACBBA800A2E5CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D2C34E4119ACBBA800A2E5CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2C34E4419ACBBA800A2E5CE /* ShapeArt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShapeArt-Info.plist"; sourceTree = "<group>"; };
+		D2C34E4619ACBBA800A2E5CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2C34E4819ACBBA800A2E5CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2C34E4A19ACBBA800A2E5CE /* ShapeArt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShapeArt-Prefix.pch"; sourceTree = "<group>"; };
+		D2C34E4C19ACBBA800A2E5CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D2C34E4E19ACBBA800A2E5CE /* SADocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SADocument.h; sourceTree = "<group>"; };
+		D2C34E4F19ACBBA800A2E5CE /* SADocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SADocument.m; sourceTree = "<group>"; };
+		D2C34E5219ACBBA800A2E5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SADocument.xib; sourceTree = "<group>"; };
+		D2C34E5519ACBBA800A2E5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D2C34E5719ACBBA800A2E5CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2C34E5D19ACBBA800A2E5CE /* ShapeArtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeArtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C34E5E19ACBBA800A2E5CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D2C34E6519ACBBA800A2E5CE /* ShapeArtTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShapeArtTests-Info.plist"; sourceTree = "<group>"; };
+		D2C34E6719ACBBA800A2E5CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2C34E6919ACBBA800A2E5CE /* ShapeArtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeArtTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2C34E3619ACBBA800A2E5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C34E3D19ACBBA800A2E5CE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C34E5A19ACBBA800A2E5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C34E6019ACBBA800A2E5CE /* Cocoa.framework in Frameworks */,
+				D2C34E5F19ACBBA800A2E5CE /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2C34E3019ACBBA800A2E5CE = {
+			isa = PBXGroup;
+			children = (
+				D2C34E4219ACBBA800A2E5CE /* ShapeArt */,
+				D2C34E6319ACBBA800A2E5CE /* ShapeArtTests */,
+				D2C34E3B19ACBBA800A2E5CE /* Frameworks */,
+				D2C34E3A19ACBBA800A2E5CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2C34E3A19ACBBA800A2E5CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2C34E3919ACBBA800A2E5CE /* ShapeArt.app */,
+				D2C34E5D19ACBBA800A2E5CE /* ShapeArtTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2C34E3B19ACBBA800A2E5CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2C34E3C19ACBBA800A2E5CE /* Cocoa.framework */,
+				D2C34E5E19ACBBA800A2E5CE /* XCTest.framework */,
+				D2C34E3E19ACBBA800A2E5CE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2C34E3E19ACBBA800A2E5CE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2C34E3F19ACBBA800A2E5CE /* AppKit.framework */,
+				D2C34E4019ACBBA800A2E5CE /* CoreData.framework */,
+				D2C34E4119ACBBA800A2E5CE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D2C34E4219ACBBA800A2E5CE /* ShapeArt */ = {
+			isa = PBXGroup;
+			children = (
+				D2C34E4E19ACBBA800A2E5CE /* SADocument.h */,
+				D2C34E4F19ACBBA800A2E5CE /* SADocument.m */,
+				D2C34E5119ACBBA800A2E5CE /* SADocument.xib */,
+				D2C34E5419ACBBA800A2E5CE /* MainMenu.xib */,
+				D2C34E5719ACBBA800A2E5CE /* Images.xcassets */,
+				D2C34E4319ACBBA800A2E5CE /* Supporting Files */,
+			);
+			path = ShapeArt;
+			sourceTree = "<group>";
+		};
+		D2C34E4319ACBBA800A2E5CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2C34E4419ACBBA800A2E5CE /* ShapeArt-Info.plist */,
+				D2C34E4519ACBBA800A2E5CE /* InfoPlist.strings */,
+				D2C34E4819ACBBA800A2E5CE /* main.m */,
+				D2C34E4A19ACBBA800A2E5CE /* ShapeArt-Prefix.pch */,
+				D2C34E4B19ACBBA800A2E5CE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2C34E6319ACBBA800A2E5CE /* ShapeArtTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2C34E6919ACBBA800A2E5CE /* ShapeArtTests.m */,
+				D2C34E6419ACBBA800A2E5CE /* Supporting Files */,
+			);
+			path = ShapeArtTests;
+			sourceTree = "<group>";
+		};
+		D2C34E6419ACBBA800A2E5CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2C34E6519ACBBA800A2E5CE /* ShapeArtTests-Info.plist */,
+				D2C34E6619ACBBA800A2E5CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2C34E3819ACBBA800A2E5CE /* ShapeArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C34E6D19ACBBA800A2E5CE /* Build configuration list for PBXNativeTarget "ShapeArt" */;
+			buildPhases = (
+				D2C34E3519ACBBA800A2E5CE /* Sources */,
+				D2C34E3619ACBBA800A2E5CE /* Frameworks */,
+				D2C34E3719ACBBA800A2E5CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShapeArt;
+			productName = ShapeArt;
+			productReference = D2C34E3919ACBBA800A2E5CE /* ShapeArt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2C34E5C19ACBBA800A2E5CE /* ShapeArtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C34E7019ACBBA800A2E5CE /* Build configuration list for PBXNativeTarget "ShapeArtTests" */;
+			buildPhases = (
+				D2C34E5919ACBBA800A2E5CE /* Sources */,
+				D2C34E5A19ACBBA800A2E5CE /* Frameworks */,
+				D2C34E5B19ACBBA800A2E5CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2C34E6219ACBBA800A2E5CE /* PBXTargetDependency */,
+			);
+			name = ShapeArtTests;
+			productName = ShapeArtTests;
+			productReference = D2C34E5D19ACBBA800A2E5CE /* ShapeArtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2C34E3119ACBBA800A2E5CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Marek Hrusovsky";
+				TargetAttributes = {
+					D2C34E5C19ACBBA800A2E5CE = {
+						TestTargetID = D2C34E3819ACBBA800A2E5CE;
+					};
+				};
+			};
+			buildConfigurationList = D2C34E3419ACBBA800A2E5CE /* Build configuration list for PBXProject "ShapeArt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2C34E3019ACBBA800A2E5CE;
+			productRefGroup = D2C34E3A19ACBBA800A2E5CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2C34E3819ACBBA800A2E5CE /* ShapeArt */,
+				D2C34E5C19ACBBA800A2E5CE /* ShapeArtTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2C34E3719ACBBA800A2E5CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C34E4719ACBBA800A2E5CE /* InfoPlist.strings in Resources */,
+				D2C34E5819ACBBA800A2E5CE /* Images.xcassets in Resources */,
+				D2C34E4D19ACBBA800A2E5CE /* Credits.rtf in Resources */,
+				D2C34E5319ACBBA800A2E5CE /* SADocument.xib in Resources */,
+				D2C34E5619ACBBA800A2E5CE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C34E5B19ACBBA800A2E5CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C34E6819ACBBA800A2E5CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2C34E3519ACBBA800A2E5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C34E5019ACBBA800A2E5CE /* SADocument.m in Sources */,
+				D2C34E4919ACBBA800A2E5CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C34E5919ACBBA800A2E5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C34E6A19ACBBA800A2E5CE /* ShapeArtTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2C34E6219ACBBA800A2E5CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2C34E3819ACBBA800A2E5CE /* ShapeArt */;
+			targetProxy = D2C34E6119ACBBA800A2E5CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2C34E4519ACBBA800A2E5CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C34E4619ACBBA800A2E5CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2C34E4B19ACBBA800A2E5CE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C34E4C19ACBBA800A2E5CE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D2C34E5119ACBBA800A2E5CE /* SADocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C34E5219ACBBA800A2E5CE /* Base */,
+			);
+			name = SADocument.xib;
+			sourceTree = "<group>";
+		};
+		D2C34E5419ACBBA800A2E5CE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C34E5519ACBBA800A2E5CE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D2C34E6619ACBBA800A2E5CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C34E6719ACBBA800A2E5CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2C34E6B19ACBBA800A2E5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D2C34E6C19ACBBA800A2E5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2C34E6E19ACBBA800A2E5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeArt/ShapeArt-Prefix.pch";
+				INFOPLIST_FILE = "ShapeArt/ShapeArt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2C34E6F19ACBBA800A2E5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeArt/ShapeArt-Prefix.pch";
+				INFOPLIST_FILE = "ShapeArt/ShapeArt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D2C34E7119ACBBA800A2E5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShapeArt.app/Contents/MacOS/ShapeArt";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeArt/ShapeArt-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShapeArtTests/ShapeArtTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D2C34E7219ACBBA800A2E5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShapeArt.app/Contents/MacOS/ShapeArt";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeArt/ShapeArt-Prefix.pch";
+				INFOPLIST_FILE = "ShapeArtTests/ShapeArtTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2C34E3419ACBBA800A2E5CE /* Build configuration list for PBXProject "ShapeArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C34E6B19ACBBA800A2E5CE /* Debug */,
+				D2C34E6C19ACBBA800A2E5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C34E6D19ACBBA800A2E5CE /* Build configuration list for PBXNativeTarget "ShapeArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C34E6E19ACBBA800A2E5CE /* Debug */,
+				D2C34E6F19ACBBA800A2E5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2C34E7019ACBBA800A2E5CE /* Build configuration list for PBXNativeTarget "ShapeArtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C34E7119ACBBA800A2E5CE /* Debug */,
+				D2C34E7219ACBBA800A2E5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2C34E3119ACBBA800A2E5CE /* Project object */;
+}
