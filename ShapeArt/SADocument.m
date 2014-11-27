@@ -156,9 +156,6 @@
 - (BOOL)readFromData:(NSData *)data ofType:(NSString *)typeName error:(NSError **)outError
 {
   self.currenDocumentModel = [NSKeyedUnarchiver unarchiveObjectWithData:data];
-  [self.shapeDocumentView clearDocumentView];
-  self.currenDocumentModel.documentDelegate = self.shapeDocumentView;
-  self.currenDocumentModel.undoManager = [self undoManager];
   return YES;
 }
 
@@ -194,11 +191,13 @@
   self.strokeWidthLabel.stringValue = [NSString stringWithFormat:@"%.1f",[sender floatValue]];
 }
 
-//- (BOOL)revertToContentsOfURL:(NSURL *)url ofType:(NSString *)typeName error:(NSError **)outError
-//{
-//  BOOL revertSuccess =  [super revertToContentsOfURL:url ofType:typeName error:outError];
-//  self.currenDocumentModel.documentDelegate = self.shapeDocumentView;
-//  return revertSuccess;
-//}
+- (BOOL)revertToContentsOfURL:(NSURL *)url ofType:(NSString *)typeName error:(NSError **)outError
+{
+  BOOL revertSuccess =  [super revertToContentsOfURL:url ofType:typeName error:outError];
+  [self.shapeDocumentView clearDocumentView];
+  self.currenDocumentModel.documentDelegate = self.shapeDocumentView;
+  self.currenDocumentModel.undoManager = [self undoManager];
+  return revertSuccess;
+}
 
 @end
