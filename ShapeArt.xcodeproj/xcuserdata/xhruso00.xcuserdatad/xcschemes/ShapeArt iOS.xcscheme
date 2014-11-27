@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2C34E3819ACBBA800A2E5CE"
-               BuildableName = "ShapeArt.app"
-               BlueprintName = "ShapeArt"
+               BlueprintIdentifier = "D2F1810C1A1A3B2800779DCD"
+               BuildableName = "ShapeArt iOS.app"
+               BlueprintName = "ShapeArt iOS"
+               ReferencedContainer = "container:ShapeArt.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D2F181241A1A3B2900779DCD"
+               BuildableName = "ShapeArt iOSTests.xctest"
+               BlueprintName = "ShapeArt iOSTests"
                ReferencedContainer = "container:ShapeArt.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2C34E5C19ACBBA800A2E5CE"
-               BuildableName = "ShapeArtTests.xctest"
-               BlueprintName = "ShapeArtTests"
+               BlueprintIdentifier = "D2F181241A1A3B2900779DCD"
+               BuildableName = "ShapeArt iOSTests.xctest"
+               BlueprintName = "ShapeArt iOSTests"
                ReferencedContainer = "container:ShapeArt.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2C34E3819ACBBA800A2E5CE"
-            BuildableName = "ShapeArt.app"
-            BlueprintName = "ShapeArt"
+            BlueprintIdentifier = "D2F1810C1A1A3B2800779DCD"
+            BuildableName = "ShapeArt iOS.app"
+            BlueprintName = "ShapeArt iOS"
             ReferencedContainer = "container:ShapeArt.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,9 +75,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2C34E3819ACBBA800A2E5CE"
-            BuildableName = "ShapeArt.app"
-            BlueprintName = "ShapeArt"
+            BlueprintIdentifier = "D2F1810C1A1A3B2800779DCD"
+            BuildableName = "ShapeArt iOS.app"
+            BlueprintName = "ShapeArt iOS"
             ReferencedContainer = "container:ShapeArt.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -79,9 +93,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2C34E3819ACBBA800A2E5CE"
-            BuildableName = "ShapeArt.app"
-            BlueprintName = "ShapeArt"
+            BlueprintIdentifier = "D2F1810C1A1A3B2800779DCD"
+            BuildableName = "ShapeArt iOS.app"
+            BlueprintName = "ShapeArt iOS"
             ReferencedContainer = "container:ShapeArt.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -7,7 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SADocumentModel.h"
+#import "SAShapeView.h"
+#import "SADocumentView.h"
 
-@interface SADocument : NSDocument
+@interface SADocument : NSDocument <SAShapeViewDelegate, SADocumentViewDelegate>
+
+@property (weak) IBOutlet SADocumentView *shapeDocumentView;
 
 @end

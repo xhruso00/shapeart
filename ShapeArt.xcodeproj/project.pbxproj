@@ -7,31 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2A036C31A234D2F002086F6 /* SAColorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A036C21A234CA9002086F6 /* SAColorTableViewCell.xib */; };
+		D2A036C71A2352EA002086F6 /* SAColorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A036C61A2352EA002086F6 /* SAColorTableViewCell.m */; };
 		D2C34E3D19ACBBA800A2E5CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C34E3C19ACBBA800A2E5CE /* Cocoa.framework */; };
 		D2C34E4719ACBBA800A2E5CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E4519ACBBA800A2E5CE /* InfoPlist.strings */; };
 		D2C34E4919ACBBA800A2E5CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E4819ACBBA800A2E5CE /* main.m */; };
 		D2C34E4D19ACBBA800A2E5CE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E4B19ACBBA800A2E5CE /* Credits.rtf */; };
 		D2C34E5019ACBBA800A2E5CE /* SADocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E4F19ACBBA800A2E5CE /* SADocument.m */; };
-		D2C34E5319ACBBA800A2E5CE /* SADocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E5119ACBBA800A2E5CE /* SADocument.xib */; };
-		D2C34E5619ACBBA800A2E5CE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E5419ACBBA800A2E5CE /* MainMenu.xib */; };
 		D2C34E5819ACBBA800A2E5CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E5719ACBBA800A2E5CE /* Images.xcassets */; };
-		D2C34E5F19ACBBA800A2E5CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C34E5E19ACBBA800A2E5CE /* XCTest.framework */; };
-		D2C34E6019ACBBA800A2E5CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C34E3C19ACBBA800A2E5CE /* Cocoa.framework */; };
-		D2C34E6819ACBBA800A2E5CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E6619ACBBA800A2E5CE /* InfoPlist.strings */; };
-		D2C34E6A19ACBBA800A2E5CE /* ShapeArtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E6919ACBBA800A2E5CE /* ShapeArtTests.m */; };
+		D2C34E7819ACBCE200A2E5CE /* SADocumentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E7719ACBCE200A2E5CE /* SADocumentModel.m */; };
+		D2C34E7B19ACBCFF00A2E5CE /* SAShape.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E7A19ACBCFF00A2E5CE /* SAShape.m */; };
+		D2C34E7E19ACBD1700A2E5CE /* SAShape+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E7D19ACBD1700A2E5CE /* SAShape+Factory.m */; };
+		D2C34E8119ACBD3E00A2E5CE /* SARectangleShape.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E8019ACBD3E00A2E5CE /* SARectangleShape.m */; };
+		D2C34E8419ACBD4D00A2E5CE /* SATriangleShape.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E8319ACBD4D00A2E5CE /* SATriangleShape.m */; };
+		D2C34E8719ACBD6200A2E5CE /* SAEllipseShape.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E8619ACBD6200A2E5CE /* SAEllipseShape.m */; };
+		D2C34E8A19ACC0C600A2E5CE /* SADocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E8919ACC0C600A2E5CE /* SADocumentView.m */; };
+		D2C34E8D19ACC39D00A2E5CE /* SAShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E8C19ACC39D00A2E5CE /* SAShapeView.m */; };
+		D2C34E8F19ACC4A900A2E5CE /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C34E8E19ACC4A900A2E5CE /* Quartz.framework */; };
+		D2C34E9219ACD24600A2E5CE /* SAColorPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E9119ACD24600A2E5CE /* SAColorPanelView.m */; };
+		D2CF2FBB1A236D5600EF5E77 /* SADocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E5119ACBBA800A2E5CE /* SADocument.xib */; };
+		D2CF2FBC1A236D5A00EF5E77 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2C34E5419ACBBA800A2E5CE /* MainMenu.xib */; };
+		D2DDA1F11A163184005B6164 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DDA1EE1A163184005B6164 /* circle.png */; };
+		D2DDA1F21A163184005B6164 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DDA1EF1A163184005B6164 /* square.png */; };
+		D2DDA1F31A163184005B6164 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DDA1F01A163184005B6164 /* triangle.png */; };
+		D2DDA1F61A16323A005B6164 /* fill.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DDA1F41A16323A005B6164 /* fill.png */; };
+		D2DDA1F71A16323A005B6164 /* stroke.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DDA1F51A16323A005B6164 /* stroke.png */; };
+		D2DDA1F91A16623C005B6164 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DDA1F81A16623C005B6164 /* search.png */; };
+		D2F181051A1A21DD00779DCD /* XPlatformColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F181041A1A21DD00779DCD /* XPlatformColor.m */; };
+		D2F181121A1A3B2800779DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F181111A1A3B2800779DCD /* main.m */; };
+		D2F181151A1A3B2800779DCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F181141A1A3B2800779DCD /* AppDelegate.m */; };
+		D2F1811D1A1A3B2900779DCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F1811C1A1A3B2900779DCD /* Images.xcassets */; };
+		D2F181371A1A3CE900779DCD /* SAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F181361A1A3CE900779DCD /* SAViewController.m */; };
+		D2F1813A1A1A3D1200779DCD /* SAShapeSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F181391A1A3D1200779DCD /* SAShapeSelectorViewController.m */; };
+		D2F1813D1A1A3D2800779DCD /* SAColorSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1813C1A1A3D2800779DCD /* SAColorSelectorViewController.m */; };
+		D2F181401A1A3D8F00779DCD /* SADocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1813F1A1A3D8F00779DCD /* SADocument.m */; };
+		D2F181421A1A3EB000779DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F181411A1A3EB000779DCD /* Main.storyboard */; };
+		D2F181471A1A41FE00779DCD /* SADocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F181461A1A41FE00779DCD /* SADocumentView.m */; };
+		D2F1814A1A1A421300779DCD /* SAShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F181491A1A421300779DCD /* SAShapeView.m */; };
+		D2F1814B1A1A44D800779DCD /* XPlatformColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F181041A1A21DD00779DCD /* XPlatformColor.m */; };
+		D2F1814C1A1A44EA00779DCD /* SADocumentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E7719ACBCE200A2E5CE /* SADocumentModel.m */; };
+		D2F1814D1A1A44EA00779DCD /* SAShape.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E7A19ACBCFF00A2E5CE /* SAShape.m */; };
+		D2F1814E1A1A44EA00779DCD /* SAShape+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E7D19ACBD1700A2E5CE /* SAShape+Factory.m */; };
+		D2F1814F1A1A44EA00779DCD /* SARectangleShape.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E8019ACBD3E00A2E5CE /* SARectangleShape.m */; };
+		D2F181501A1A44EA00779DCD /* SATriangleShape.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E8319ACBD4D00A2E5CE /* SATriangleShape.m */; };
+		D2F181511A1A44EA00779DCD /* SAEllipseShape.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C34E8619ACBD6200A2E5CE /* SAEllipseShape.m */; };
+		D2F181551A1A9A1500779DCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F181541A1A9A1500779DCD /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D2C34E6119ACBBA800A2E5CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2C34E3119ACBBA800A2E5CE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2C34E3819ACBBA800A2E5CE;
-			remoteInfo = ShapeArt;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		D2A036C21A234CA9002086F6 /* SAColorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SAColorTableViewCell.xib; path = "ShapeArt iOS/SAColorTableViewCell.xib"; sourceTree = "<group>"; };
+		D2A036C51A2352EA002086F6 /* SAColorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAColorTableViewCell.h; sourceTree = "<group>"; };
+		D2A036C61A2352EA002086F6 /* SAColorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAColorTableViewCell.m; sourceTree = "<group>"; };
 		D2C34E3919ACBBA800A2E5CE /* ShapeArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C34E3C19ACBBA800A2E5CE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D2C34E3F19ACBBA800A2E5CE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -42,16 +68,60 @@
 		D2C34E4819ACBBA800A2E5CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2C34E4A19ACBBA800A2E5CE /* ShapeArt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShapeArt-Prefix.pch"; sourceTree = "<group>"; };
 		D2C34E4C19ACBBA800A2E5CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		D2C34E4E19ACBBA800A2E5CE /* SADocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SADocument.h; sourceTree = "<group>"; };
-		D2C34E4F19ACBBA800A2E5CE /* SADocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SADocument.m; sourceTree = "<group>"; };
+		D2C34E4E19ACBBA800A2E5CE /* SADocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SADocument.h; path = ShapeArt/SADocument.h; sourceTree = "<group>"; };
+		D2C34E4F19ACBBA800A2E5CE /* SADocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SADocument.m; path = ShapeArt/SADocument.m; sourceTree = "<group>"; };
 		D2C34E5219ACBBA800A2E5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SADocument.xib; sourceTree = "<group>"; };
 		D2C34E5519ACBBA800A2E5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D2C34E5719ACBBA800A2E5CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D2C34E5D19ACBBA800A2E5CE /* ShapeArtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeArtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C34E5E19ACBBA800A2E5CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D2C34E6519ACBBA800A2E5CE /* ShapeArtTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShapeArtTests-Info.plist"; sourceTree = "<group>"; };
-		D2C34E6719ACBBA800A2E5CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D2C34E6919ACBBA800A2E5CE /* ShapeArtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeArtTests.m; sourceTree = "<group>"; };
+		D2C34E7619ACBCE200A2E5CE /* SADocumentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SADocumentModel.h; path = ShapeArt/SADocumentModel.h; sourceTree = "<group>"; };
+		D2C34E7719ACBCE200A2E5CE /* SADocumentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SADocumentModel.m; path = ShapeArt/SADocumentModel.m; sourceTree = "<group>"; };
+		D2C34E7919ACBCFF00A2E5CE /* SAShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAShape.h; path = ShapeArt/SAShape.h; sourceTree = "<group>"; };
+		D2C34E7A19ACBCFF00A2E5CE /* SAShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SAShape.m; path = ShapeArt/SAShape.m; sourceTree = "<group>"; };
+		D2C34E7C19ACBD1700A2E5CE /* SAShape+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SAShape+Factory.h"; path = "ShapeArt/SAShape+Factory.h"; sourceTree = "<group>"; };
+		D2C34E7D19ACBD1700A2E5CE /* SAShape+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SAShape+Factory.m"; path = "ShapeArt/SAShape+Factory.m"; sourceTree = "<group>"; };
+		D2C34E7F19ACBD3E00A2E5CE /* SARectangleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SARectangleShape.h; path = ShapeArt/SARectangleShape.h; sourceTree = "<group>"; };
+		D2C34E8019ACBD3E00A2E5CE /* SARectangleShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SARectangleShape.m; path = ShapeArt/SARectangleShape.m; sourceTree = "<group>"; };
+		D2C34E8219ACBD4D00A2E5CE /* SATriangleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SATriangleShape.h; path = ShapeArt/SATriangleShape.h; sourceTree = "<group>"; };
+		D2C34E8319ACBD4D00A2E5CE /* SATriangleShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SATriangleShape.m; path = ShapeArt/SATriangleShape.m; sourceTree = "<group>"; };
+		D2C34E8519ACBD6200A2E5CE /* SAEllipseShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAEllipseShape.h; path = ShapeArt/SAEllipseShape.h; sourceTree = "<group>"; };
+		D2C34E8619ACBD6200A2E5CE /* SAEllipseShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SAEllipseShape.m; path = ShapeArt/SAEllipseShape.m; sourceTree = "<group>"; };
+		D2C34E8819ACC0C600A2E5CE /* SADocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SADocumentView.h; path = ShapeArt/SADocumentView.h; sourceTree = "<group>"; };
+		D2C34E8919ACC0C600A2E5CE /* SADocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SADocumentView.m; path = ShapeArt/SADocumentView.m; sourceTree = "<group>"; };
+		D2C34E8B19ACC39D00A2E5CE /* SAShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAShapeView.h; path = ShapeArt/SAShapeView.h; sourceTree = "<group>"; };
+		D2C34E8C19ACC39D00A2E5CE /* SAShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SAShapeView.m; path = ShapeArt/SAShapeView.m; sourceTree = "<group>"; };
+		D2C34E8E19ACC4A900A2E5CE /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		D2C34E9019ACD24600A2E5CE /* SAColorPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAColorPanelView.h; path = ShapeArt/SAColorPanelView.h; sourceTree = "<group>"; };
+		D2C34E9119ACD24600A2E5CE /* SAColorPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SAColorPanelView.m; path = ShapeArt/SAColorPanelView.m; sourceTree = "<group>"; };
+		D2DDA1EE1A163184005B6164 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		D2DDA1EF1A163184005B6164 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		D2DDA1F01A163184005B6164 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		D2DDA1F41A16323A005B6164 /* fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fill.png; sourceTree = "<group>"; };
+		D2DDA1F51A16323A005B6164 /* stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stroke.png; sourceTree = "<group>"; };
+		D2DDA1F81A16623C005B6164 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		D2F181031A1A21DD00779DCD /* XPlatformColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPlatformColor.h; path = ShapeArt/XPlatformColor.h; sourceTree = "<group>"; };
+		D2F181041A1A21DD00779DCD /* XPlatformColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPlatformColor.m; path = ShapeArt/XPlatformColor.m; sourceTree = "<group>"; };
+		D2F1810D1A1A3B2800779DCD /* ShapeArt iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShapeArt iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F181101A1A3B2800779DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F181111A1A3B2800779DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2F181131A1A3B2800779DCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "ShapeArt iOS/AppDelegate.h"; sourceTree = "<group>"; };
+		D2F181141A1A3B2800779DCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "ShapeArt iOS/AppDelegate.m"; sourceTree = "<group>"; };
+		D2F1811C1A1A3B2900779DCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "ShapeArt iOS/Images.xcassets"; sourceTree = "<group>"; };
+		D2F181351A1A3CE900779DCD /* SAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAViewController.h; sourceTree = "<group>"; };
+		D2F181361A1A3CE900779DCD /* SAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAViewController.m; sourceTree = "<group>"; };
+		D2F181381A1A3D1200779DCD /* SAShapeSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAShapeSelectorViewController.h; sourceTree = "<group>"; };
+		D2F181391A1A3D1200779DCD /* SAShapeSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAShapeSelectorViewController.m; sourceTree = "<group>"; };
+		D2F1813B1A1A3D2800779DCD /* SAColorSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAColorSelectorViewController.h; sourceTree = "<group>"; };
+		D2F1813C1A1A3D2800779DCD /* SAColorSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAColorSelectorViewController.m; sourceTree = "<group>"; };
+		D2F1813E1A1A3D8F00779DCD /* SADocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SADocument.h; sourceTree = "<group>"; };
+		D2F1813F1A1A3D8F00779DCD /* SADocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SADocument.m; sourceTree = "<group>"; };
+		D2F181411A1A3EB000779DCD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "ShapeArt iOS/Main.storyboard"; sourceTree = "<group>"; };
+		D2F181451A1A41FE00779DCD /* SADocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SADocumentView.h; sourceTree = "<group>"; };
+		D2F181461A1A41FE00779DCD /* SADocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SADocumentView.m; sourceTree = "<group>"; };
+		D2F181481A1A421300779DCD /* SAShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAShapeView.h; sourceTree = "<group>"; };
+		D2F181491A1A421300779DCD /* SAShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAShapeView.m; sourceTree = "<group>"; };
+		D2F181541A1A9A1500779DCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2F181561A1A9CAC00779DCD /* ShapeArt-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ShapeArt-iOS-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,16 +129,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C34E8F19ACC4A900A2E5CE /* Quartz.framework in Frameworks */,
 				D2C34E3D19ACBBA800A2E5CE /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2C34E5A19ACBBA800A2E5CE /* Frameworks */ = {
+		D2F1810A1A1A3B2800779DCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C34E6019ACBBA800A2E5CE /* Cocoa.framework in Frameworks */,
-				D2C34E5F19ACBBA800A2E5CE /* XCTest.framework in Frameworks */,
+				D2F181551A1A9A1500779DCD /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,8 +148,10 @@
 		D2C34E3019ACBBA800A2E5CE = {
 			isa = PBXGroup;
 			children = (
-				D2C34E4219ACBBA800A2E5CE /* ShapeArt */,
-				D2C34E6319ACBBA800A2E5CE /* ShapeArtTests */,
+				D2F181081A1A3A5D00779DCD /* Common Source */,
+				D2F181071A1A3A2900779DCD /* iOS Source */,
+				D2F181061A1A39FA00779DCD /* OS X Source */,
+				D2F1810E1A1A3B2800779DCD /* ShapeArt iOS */,
 				D2C34E3B19ACBBA800A2E5CE /* Frameworks */,
 				D2C34E3A19ACBBA800A2E5CE /* Products */,
 			);
@@ -89,7 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				D2C34E3919ACBBA800A2E5CE /* ShapeArt.app */,
-				D2C34E5D19ACBBA800A2E5CE /* ShapeArtTests.xctest */,
+				D2F1810D1A1A3B2800779DCD /* ShapeArt iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +169,8 @@
 		D2C34E3B19ACBBA800A2E5CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D2F181541A1A9A1500779DCD /* UIKit.framework */,
+				D2C34E8E19ACC4A900A2E5CE /* Quartz.framework */,
 				D2C34E3C19ACBBA800A2E5CE /* Cocoa.framework */,
 				D2C34E5E19ACBBA800A2E5CE /* XCTest.framework */,
 				D2C34E3E19ACBBA800A2E5CE /* Other Frameworks */,
@@ -114,22 +188,10 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		D2C34E4219ACBBA800A2E5CE /* ShapeArt */ = {
-			isa = PBXGroup;
-			children = (
-				D2C34E4E19ACBBA800A2E5CE /* SADocument.h */,
-				D2C34E4F19ACBBA800A2E5CE /* SADocument.m */,
-				D2C34E5119ACBBA800A2E5CE /* SADocument.xib */,
-				D2C34E5419ACBBA800A2E5CE /* MainMenu.xib */,
-				D2C34E5719ACBBA800A2E5CE /* Images.xcassets */,
-				D2C34E4319ACBBA800A2E5CE /* Supporting Files */,
-			);
-			path = ShapeArt;
-			sourceTree = "<group>";
-		};
 		D2C34E4319ACBBA800A2E5CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2C34E5719ACBBA800A2E5CE /* Images.xcassets */,
 				D2C34E4419ACBBA800A2E5CE /* ShapeArt-Info.plist */,
 				D2C34E4519ACBBA800A2E5CE /* InfoPlist.strings */,
 				D2C34E4819ACBBA800A2E5CE /* main.m */,
@@ -137,24 +199,156 @@
 				D2C34E4B19ACBBA800A2E5CE /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			path = ShapeArt;
 			sourceTree = "<group>";
 		};
-		D2C34E6319ACBBA800A2E5CE /* ShapeArtTests */ = {
+		D2C34E7319ACBBD800A2E5CE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D2C34E6919ACBBA800A2E5CE /* ShapeArtTests.m */,
-				D2C34E6419ACBBA800A2E5CE /* Supporting Files */,
+				D2C34E7619ACBCE200A2E5CE /* SADocumentModel.h */,
+				D2C34E7719ACBCE200A2E5CE /* SADocumentModel.m */,
+				D2C34E7919ACBCFF00A2E5CE /* SAShape.h */,
+				D2C34E7A19ACBCFF00A2E5CE /* SAShape.m */,
+				D2C34E7C19ACBD1700A2E5CE /* SAShape+Factory.h */,
+				D2C34E7D19ACBD1700A2E5CE /* SAShape+Factory.m */,
+				D2C34E7F19ACBD3E00A2E5CE /* SARectangleShape.h */,
+				D2C34E8019ACBD3E00A2E5CE /* SARectangleShape.m */,
+				D2C34E8219ACBD4D00A2E5CE /* SATriangleShape.h */,
+				D2C34E8319ACBD4D00A2E5CE /* SATriangleShape.m */,
+				D2C34E8519ACBD6200A2E5CE /* SAEllipseShape.h */,
+				D2C34E8619ACBD6200A2E5CE /* SAEllipseShape.m */,
 			);
-			path = ShapeArtTests;
+			name = Model;
 			sourceTree = "<group>";
 		};
-		D2C34E6419ACBBA800A2E5CE /* Supporting Files */ = {
+		D2C34E7419ACBBEA00A2E5CE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D2C34E6519ACBBA800A2E5CE /* ShapeArtTests-Info.plist */,
-				D2C34E6619ACBBA800A2E5CE /* InfoPlist.strings */,
+				D2C34E9019ACD24600A2E5CE /* SAColorPanelView.h */,
+				D2C34E9119ACD24600A2E5CE /* SAColorPanelView.m */,
+				D2C34E8819ACC0C600A2E5CE /* SADocumentView.h */,
+				D2C34E8919ACC0C600A2E5CE /* SADocumentView.m */,
+				D2C34E8B19ACC39D00A2E5CE /* SAShapeView.h */,
+				D2C34E8C19ACC39D00A2E5CE /* SAShapeView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D2C34E7519ACBBF400A2E5CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2C34E4E19ACBBA800A2E5CE /* SADocument.h */,
+				D2C34E4F19ACBBA800A2E5CE /* SADocument.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D2DDA1ED1A163184005B6164 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D2DDA1F81A16623C005B6164 /* search.png */,
+				D2DDA1F41A16323A005B6164 /* fill.png */,
+				D2DDA1F51A16323A005B6164 /* stroke.png */,
+				D2DDA1EE1A163184005B6164 /* circle.png */,
+				D2DDA1EF1A163184005B6164 /* square.png */,
+				D2DDA1F01A163184005B6164 /* triangle.png */,
+			);
+			name = Images;
+			path = ShapeArt/Images;
+			sourceTree = "<group>";
+		};
+		D2F181021A1A216700779DCD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D2F181031A1A21DD00779DCD /* XPlatformColor.h */,
+				D2F181041A1A21DD00779DCD /* XPlatformColor.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D2F181061A1A39FA00779DCD /* OS X Source */ = {
+			isa = PBXGroup;
+			children = (
+				D2C34E5119ACBBA800A2E5CE /* SADocument.xib */,
+				D2C34E5419ACBBA800A2E5CE /* MainMenu.xib */,
+				D2C34E7419ACBBEA00A2E5CE /* View */,
+				D2C34E7519ACBBF400A2E5CE /* Controller */,
+				D2DDA1ED1A163184005B6164 /* Images */,
+				D2C34E4319ACBBA800A2E5CE /* Supporting Files */,
+			);
+			name = "OS X Source";
+			sourceTree = "<group>";
+		};
+		D2F181071A1A3A2900779DCD /* iOS Source */ = {
+			isa = PBXGroup;
+			children = (
+				D2F181441A1A41DD00779DCD /* Controller */,
+				D2F181431A1A41D300779DCD /* View */,
+				D2F181131A1A3B2800779DCD /* AppDelegate.h */,
+				D2F181141A1A3B2800779DCD /* AppDelegate.m */,
+				D2A036C21A234CA9002086F6 /* SAColorTableViewCell.xib */,
+				D2F181411A1A3EB000779DCD /* Main.storyboard */,
+				D2F1811C1A1A3B2900779DCD /* Images.xcassets */,
+				D2F1810F1A1A3B2800779DCD /* Supporting Files */,
+			);
+			name = "iOS Source";
+			sourceTree = "<group>";
+		};
+		D2F181081A1A3A5D00779DCD /* Common Source */ = {
+			isa = PBXGroup;
+			children = (
+				D2F181021A1A216700779DCD /* Utils */,
+				D2C34E7319ACBBD800A2E5CE /* Model */,
+			);
+			name = "Common Source";
+			sourceTree = "<group>";
+		};
+		D2F1810E1A1A3B2800779DCD /* ShapeArt iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ShapeArt iOS";
+			sourceTree = "<group>";
+		};
+		D2F1810F1A1A3B2800779DCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2F181101A1A3B2800779DCD /* Info.plist */,
+				D2F181561A1A9CAC00779DCD /* ShapeArt-iOS-Prefix.pch */,
+				D2F181111A1A3B2800779DCD /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "ShapeArt iOS";
+			sourceTree = "<group>";
+		};
+		D2F181431A1A41D300779DCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2A036C51A2352EA002086F6 /* SAColorTableViewCell.h */,
+				D2A036C61A2352EA002086F6 /* SAColorTableViewCell.m */,
+				D2F181451A1A41FE00779DCD /* SADocumentView.h */,
+				D2F181461A1A41FE00779DCD /* SADocumentView.m */,
+				D2F181481A1A421300779DCD /* SAShapeView.h */,
+				D2F181491A1A421300779DCD /* SAShapeView.m */,
+			);
+			name = View;
+			path = "ShapeArt iOS";
+			sourceTree = "<group>";
+		};
+		D2F181441A1A41DD00779DCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2F1813E1A1A3D8F00779DCD /* SADocument.h */,
+				D2F1813F1A1A3D8F00779DCD /* SADocument.m */,
+				D2F181351A1A3CE900779DCD /* SAViewController.h */,
+				D2F181361A1A3CE900779DCD /* SAViewController.m */,
+				D2F181381A1A3D1200779DCD /* SAShapeSelectorViewController.h */,
+				D2F181391A1A3D1200779DCD /* SAShapeSelectorViewController.m */,
+				D2F1813B1A1A3D2800779DCD /* SAColorSelectorViewController.h */,
+				D2F1813C1A1A3D2800779DCD /* SAColorSelectorViewController.m */,
+			);
+			name = Controller;
+			path = "ShapeArt iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,23 +371,22 @@
 			productReference = D2C34E3919ACBBA800A2E5CE /* ShapeArt.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2C34E5C19ACBBA800A2E5CE /* ShapeArtTests */ = {
+		D2F1810C1A1A3B2800779DCD /* ShapeArt iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2C34E7019ACBBA800A2E5CE /* Build configuration list for PBXNativeTarget "ShapeArtTests" */;
+			buildConfigurationList = D2F1812D1A1A3B2900779DCD /* Build configuration list for PBXNativeTarget "ShapeArt iOS" */;
 			buildPhases = (
-				D2C34E5919ACBBA800A2E5CE /* Sources */,
-				D2C34E5A19ACBBA800A2E5CE /* Frameworks */,
-				D2C34E5B19ACBBA800A2E5CE /* Resources */,
+				D2F181091A1A3B2800779DCD /* Sources */,
+				D2F1810A1A1A3B2800779DCD /* Frameworks */,
+				D2F1810B1A1A3B2800779DCD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D2C34E6219ACBBA800A2E5CE /* PBXTargetDependency */,
 			);
-			name = ShapeArtTests;
-			productName = ShapeArtTests;
-			productReference = D2C34E5D19ACBBA800A2E5CE /* ShapeArtTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "ShapeArt iOS";
+			productName = "ShapeArt iOS";
+			productReference = D2F1810D1A1A3B2800779DCD /* ShapeArt iOS.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,11 +395,11 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SA;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Marek Hrusovsky";
 				TargetAttributes = {
-					D2C34E5C19ACBBA800A2E5CE = {
-						TestTargetID = D2C34E3819ACBBA800A2E5CE;
+					D2F1810C1A1A3B2800779DCD = {
+						CreatedOnToolsVersion = 6.1;
 					};
 				};
 			};
@@ -224,7 +417,7 @@
 			projectRoot = "";
 			targets = (
 				D2C34E3819ACBBA800A2E5CE /* ShapeArt */,
-				D2C34E5C19ACBBA800A2E5CE /* ShapeArtTests */,
+				D2F1810C1A1A3B2800779DCD /* ShapeArt iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -236,17 +429,25 @@
 			files = (
 				D2C34E4719ACBBA800A2E5CE /* InfoPlist.strings in Resources */,
 				D2C34E5819ACBBA800A2E5CE /* Images.xcassets in Resources */,
+				D2DDA1F61A16323A005B6164 /* fill.png in Resources */,
+				D2CF2FBC1A236D5A00EF5E77 /* MainMenu.xib in Resources */,
+				D2DDA1F71A16323A005B6164 /* stroke.png in Resources */,
 				D2C34E4D19ACBBA800A2E5CE /* Credits.rtf in Resources */,
-				D2C34E5319ACBBA800A2E5CE /* SADocument.xib in Resources */,
-				D2C34E5619ACBBA800A2E5CE /* MainMenu.xib in Resources */,
+				D2DDA1F21A163184005B6164 /* square.png in Resources */,
+				D2CF2FBB1A236D5600EF5E77 /* SADocument.xib in Resources */,
+				D2DDA1F11A163184005B6164 /* circle.png in Resources */,
+				D2DDA1F91A16623C005B6164 /* search.png in Resources */,
+				D2DDA1F31A163184005B6164 /* triangle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2C34E5B19ACBBA800A2E5CE /* Resources */ = {
+		D2F1810B1A1A3B2800779DCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C34E6819ACBBA800A2E5CE /* InfoPlist.strings in Resources */,
+				D2F181421A1A3EB000779DCD /* Main.storyboard in Resources */,
+				D2F1811D1A1A3B2900779DCD /* Images.xcassets in Resources */,
+				D2A036C31A234D2F002086F6 /* SAColorTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,27 +459,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C34E5019ACBBA800A2E5CE /* SADocument.m in Sources */,
+				D2C34E8119ACBD3E00A2E5CE /* SARectangleShape.m in Sources */,
+				D2C34E9219ACD24600A2E5CE /* SAColorPanelView.m in Sources */,
+				D2C34E8D19ACC39D00A2E5CE /* SAShapeView.m in Sources */,
+				D2C34E7B19ACBCFF00A2E5CE /* SAShape.m in Sources */,
 				D2C34E4919ACBBA800A2E5CE /* main.m in Sources */,
+				D2C34E7819ACBCE200A2E5CE /* SADocumentModel.m in Sources */,
+				D2F181051A1A21DD00779DCD /* XPlatformColor.m in Sources */,
+				D2C34E8419ACBD4D00A2E5CE /* SATriangleShape.m in Sources */,
+				D2C34E8A19ACC0C600A2E5CE /* SADocumentView.m in Sources */,
+				D2C34E8719ACBD6200A2E5CE /* SAEllipseShape.m in Sources */,
+				D2C34E7E19ACBD1700A2E5CE /* SAShape+Factory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2C34E5919ACBBA800A2E5CE /* Sources */ = {
+		D2F181091A1A3B2800779DCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C34E6A19ACBBA800A2E5CE /* ShapeArtTests.m in Sources */,
+				D2F1814E1A1A44EA00779DCD /* SAShape+Factory.m in Sources */,
+				D2F1814A1A1A421300779DCD /* SAShapeView.m in Sources */,
+				D2F1814D1A1A44EA00779DCD /* SAShape.m in Sources */,
+				D2F1814B1A1A44D800779DCD /* XPlatformColor.m in Sources */,
+				D2F181511A1A44EA00779DCD /* SAEllipseShape.m in Sources */,
+				D2F181371A1A3CE900779DCD /* SAViewController.m in Sources */,
+				D2F181501A1A44EA00779DCD /* SATriangleShape.m in Sources */,
+				D2A036C71A2352EA002086F6 /* SAColorTableViewCell.m in Sources */,
+				D2F1814F1A1A44EA00779DCD /* SARectangleShape.m in Sources */,
+				D2F1813D1A1A3D2800779DCD /* SAColorSelectorViewController.m in Sources */,
+				D2F1814C1A1A44EA00779DCD /* SADocumentModel.m in Sources */,
+				D2F181471A1A41FE00779DCD /* SADocumentView.m in Sources */,
+				D2F181151A1A3B2800779DCD /* AppDelegate.m in Sources */,
+				D2F181121A1A3B2800779DCD /* main.m in Sources */,
+				D2F1813A1A1A3D1200779DCD /* SAShapeSelectorViewController.m in Sources */,
+				D2F181401A1A3D8F00779DCD /* SADocument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D2C34E6219ACBBA800A2E5CE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2C34E3819ACBBA800A2E5CE /* ShapeArt */;
-			targetProxy = D2C34E6119ACBBA800A2E5CE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D2C34E4519ACBBA800A2E5CE /* InfoPlist.strings */ = {
@@ -303,6 +521,7 @@
 				D2C34E5219ACBBA800A2E5CE /* Base */,
 			);
 			name = SADocument.xib;
+			path = ShapeArt;
 			sourceTree = "<group>";
 		};
 		D2C34E5419ACBBA800A2E5CE /* MainMenu.xib */ = {
@@ -311,14 +530,7 @@
 				D2C34E5519ACBBA800A2E5CE /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		D2C34E6619ACBBA800A2E5CE /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2C34E6719ACBBA800A2E5CE /* en */,
-			);
-			name = InfoPlist.strings;
+			path = ShapeArt;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -402,7 +614,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShapeArt/ShapeArt-Prefix.pch";
 				INFOPLIST_FILE = "ShapeArt/ShapeArt-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -415,48 +629,51 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShapeArt/ShapeArt-Prefix.pch";
 				INFOPLIST_FILE = "ShapeArt/ShapeArt-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		D2C34E7119ACBBA800A2E5CE /* Debug */ = {
+		D2F1812E1A1A3B2900779DCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShapeArt.app/Contents/MacOS/ShapeArt";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShapeArt/ShapeArt-Prefix.pch";
+				GCC_PREFIX_HEADER = "ShapeArt/ShapeArt-iOS-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ShapeArtTests/ShapeArtTests-Info.plist";
+				INFOPLIST_FILE = "ShapeArt iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		D2C34E7219ACBBA800A2E5CE /* Release */ = {
+		D2F1812F1A1A3B2900779DCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShapeArt.app/Contents/MacOS/ShapeArt";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShapeArt/ShapeArt-Prefix.pch";
-				INFOPLIST_FILE = "ShapeArtTests/ShapeArtTests-Info.plist";
+				GCC_PREFIX_HEADER = "ShapeArt/ShapeArt-iOS-Prefix.pch";
+				INFOPLIST_FILE = "ShapeArt iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -479,14 +696,16 @@
 				D2C34E6F19ACBBA800A2E5CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		D2C34E7019ACBBA800A2E5CE /* Build configuration list for PBXNativeTarget "ShapeArtTests" */ = {
+		D2F1812D1A1A3B2900779DCD /* Build configuration list for PBXNativeTarget "ShapeArt iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2C34E7119ACBBA800A2E5CE /* Debug */,
-				D2C34E7219ACBBA800A2E5CE /* Release */,
+				D2F1812E1A1A3B2900779DCD /* Debug */,
+				D2F1812F1A1A3B2900779DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

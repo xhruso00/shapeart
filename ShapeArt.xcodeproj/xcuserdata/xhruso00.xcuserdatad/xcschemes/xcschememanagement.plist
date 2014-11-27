@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ShapeArt iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ShapeArt.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>D2C34E5C19ACBBA800A2E5CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2F1810C1A1A3B2800779DCD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2F181241A1A3B2900779DCD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
